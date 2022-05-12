@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>user Usage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="app">
+
+    <h1>Get my Bill</h1>
+    <p> insert your electricity unit to get your total Price  </p>
+
+    <form id="myForm" action="index.html" method="post">
+      <input type="number" name="userInput" value="" id="userGuss">
+      <button onclick="handelClick();" type="submit" class="l drum">Calculate</button>
+
+    </form>
+    <div id="userTotal">
+
+    </div>
+    <div id="result">
+
+    </div>
+
+  </div>
+  <footer>
+    Made with ❤️ .
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

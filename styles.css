@@ -1,0 +1,67 @@
+.app{
+width: 50%;
+height: 50%;
+margin: 15%;
+margin-top: 140px;
+
+text-align: center;
+
+}
+
+h1{
+  margin-left: 250px;
+}
+h3{
+  margin-left: 250px;
+
+
+}
+
+
+p{
+
+  margin-left: 250px;
+
+
+
+}
+
+body {
+  text-align: center;
+  background-color: #DA0463;
+}
+
+input{
+  width: 30%;
+  height: 30%;
+  outline:none;
+  border: none;
+  background: #C4DDFF;
+margin-left: 250px;
+  border-radius: 4px;
+  padding: 4px;
+  color: #000;
+}
+input:focus{
+  background: #EEEEEE;
+  transform: scale(1.1);
+}
+button{
+  display: block;
+  margin-left: 395px;
+  margin-top: 10px;
+  width: 30%;
+  height: 30px;
+  color: #DBEDF3;
+  height: 30px;
+  border:none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5;
+  background: #00092C;
+}
+
+button:hover{
+  background-color: #001D6E;
+  letter-spacing: 2px;
+}
